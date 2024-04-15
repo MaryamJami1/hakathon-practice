@@ -210,11 +210,6 @@
 }
 
 
-
-
-
-
-
 .second-container {
     width: 1140px;
     height: 720px;
@@ -348,7 +343,7 @@
 }
 
 .home-btn-two {
-    margin-top: 55px;
+    margin-top:90px;
     margin-left: 45%;
     border: none;
     outline: none;
@@ -357,4 +352,51 @@
     color: white;
     width: 15%;
 
+}
+
+
+
+
+
+.fifth-container {
+    width: 1140px;
+    height: 720px;
+    margin-top: 30px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #f9f5f9f0;
+    margin-left: 5%;
+
+
+}
+
+
+
+#fifth-img-one {
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+
+
+#fifth-img-two {
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+
+
+.fifth-container h1 {
+    width: 1110px;
+    height: 85px;
+    top: 57px;
+    left: 15px;
+    padding: 7px 353.25px 18px 453.90px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 700;
+
+}
+.fifth-container p {
+    margin-left: 30%;
 }
