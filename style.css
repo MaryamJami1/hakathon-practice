@@ -401,4 +401,198 @@
     margin-left: 30%;
 }
 
--
+.testmonial{
+    width: 1150px;
+height: 672px;
+
+margin-top: 30px;
+margin-left: 55px;
+}
+
+
+.testmonial #tomato-one{
+height: 75px;
+width: 70px;
+
+}
+
+.testmonial #carrot-six{
+    margin-left: 40%;
+}
+
+.testmonial #test{
+    margin-left: 40%;
+    font-weight: 700;
+}
+
+.client{
+   
+    height: 260px;
+    width: 420px;
+    margin-left: 30%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.client img{
+    height: 120px;
+    width: 120px;
+
+}
+
+.child-div{
+    margin-left: 35px;
+}
+
+.child-div p{
+    color: #ECAD15;
+}
+
+.child-div h1{
+    font-weight: 600;
+}
+
+
+.review {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+
+}
+
+
+.review #prev{
+    margin-right: 230px;
+    height: 60px;
+    width: 60px;
+}
+
+
+.review #next{
+    margin-left: 230px;
+    height: 60px;
+    width: 60px;
+}
+
+.review p{
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+#tomato-two{
+    height: 75px;
+width: 70px;
+margin-left: 1070px;
+
+}
+
+.contact-main{
+    width: 1249px;
+height: 600px;
+background-color: #f9f5f9f0;
+
+}
+
+.content-last{
+    height: 550px;
+    width: 800px;
+   margin-left: 230px;
+}
+
+#last-carrot{
+    margin-left: 50%;
+}
+
+#contact-us{
+    margin-left: 43%;
+    font-weight: 700;
+}
+
+.input input{
+    width: 280px;
+   margin: 10px;
+   padding: 5px;
+   outline: none;
+   border: 1px solid rgba(0, 0, 0, 0.095);
+   background-color: #f9f5f9f0;
+}
+
+.input textarea{
+    margin: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.095);
+    background-color: #f9f5f9f0;
+}
+
+
+.input-map{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 40px;
+}
+
+.input button{
+
+    background-color: #ECAD15;
+    height:40px;
+    width: 150px;
+    margin-left: 70px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+   
+}
+
+
+.main-footer{
+    height: 350px;
+    width: 100%;
+    background-color: #252525;
+    padding: 60px;
+}
+
+.child-main{
+    height: 250px;
+    width: 90%;
+ display: flex;
+    justify-content: space-evenly;
+}
+
+
+.address h2{
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.address a{
+    text-decoration: none;
+    color: white;
+  
+    }
+
+
+    
+.links h2{
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.links a{
+    text-decoration: none;
+    color: white;
+  
+    }
+
+    
+.newsletter h2{
+    color: white;
+    padding-bottom: 20px;
+
+}
