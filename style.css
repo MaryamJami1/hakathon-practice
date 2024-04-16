@@ -899,19 +899,23 @@ width: 300px;
 
 
 .main-footer {
-    height: 350px;
+    height: 300px;
     width: 100%;
     background-color: #252525;
-    padding: 60px;
+    padding: 40px;
 }
 
 .child-main {
     height: 250px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
+.address{
+    height: 280px;
+    width: 30%;
+}
 
 .address h2 {
     color: white;
@@ -926,7 +930,10 @@ width: 300px;
 
 }
 
-
+.links{
+    height: 280px;
+    width: 30%;
+}
 
 .links h2 {
     color: white;
@@ -942,6 +949,11 @@ width: 300px;
 }
 
 
+.newsletter{
+    height: 280px;
+    width: 30%;
+}
+
 .newsletter h2 {
     color: white;
     padding-bottom: 20px;
@@ -949,4 +961,71 @@ width: 300px;
 }
 
 
-@media only screen and (max-width: 400px) {}
+@media only screen and (max-width: 400px) {
+
+
+
+    
+.main-footer {
+    height: 600px;
+    width: 300px;
+    background-color: #252525;
+    margin-top: 30px;
+}
+
+.child-main {
+    height: 580px;
+    width: 220px;
+    flex-direction: column;
+
+}
+
+.address{
+    height: 220px;
+    width: 100%;
+}
+
+.address h2 {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.address a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.links{
+    height: 220px;
+    width: 100%;
+}
+
+.links h2 {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.links a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.newsletter{
+    height: 220px;
+    width: 100%;
+}
+
+.newsletter h2 {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+}
