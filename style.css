@@ -15,7 +15,6 @@
 .header {
     width: 100%;
     min-height: 90px;
-
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -36,21 +35,13 @@
     justify-content: space-evenly;
 }
 
-.tabs a,
-.tab-btns a {
+.tabs a {
     text-decoration: none;
     color: #201f1f;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
-.tab-btns {
-    flex-grow: 1;
-    min-height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 
 .home {
@@ -189,13 +180,15 @@
 
 @media only screen and (max-width: 400px) {
 
-
+.logo{
+   padding-left: 0px;
+}
 
     .header {
-
         gap: 1em;
-
+       padding: 0px;
     }
+
 
     .tabs {
         display: block;
@@ -207,6 +200,55 @@
 
     }
 
+    
+    .home-img img{
+        height: 300px;
+        width: 250px;
+     }
+
+     
+.content h1 {
+    font-size: 2em;
+
+    font-weight: 600;
+}
+
+
+.home {
+    
+    margin: 0em 0;
+    min-height: 600px;
+
+}
+
+.content {
+  
+    margin: 0em;
+    padding: 0% 0px;
+}
+
+
+
+.home-btn-one {
+    width: 45%;
+}
+
+
+
+.header-btn-two {
+    width: 45%;
+
+}
+
+
+.prev-next img{
+height: 60px;
+width: 60px;
+margin-top: 30px;
+margin-right: 50px;
+}
+
+
 }
 
 
@@ -214,20 +256,13 @@
     width: 1140px;
     height: 720px;
     margin-top: 10px;
-    gap: 0px;
-    opacity: 0px;
-
-
+   
 }
 
 .second-container h1 {
     width: 1110px;
     height: 85px;
-    top: 57px;
-    left: 15px;
     padding: 7px 353.25px 18px 453.90px;
-    gap: 0px;
-    opacity: 0px;
     font-weight: 700;
 
 }
@@ -258,6 +293,51 @@
 
 }
 
+
+
+@media only screen and (max-width: 400px) {
+
+    .second-container {
+        width: 300px;
+        height: 720px;
+        margin-top: 80px;
+       
+    }
+    
+    .second-container h1 {
+        padding-left: 10px;
+        font-weight: 600;
+    
+    }
+    
+    #sec-img-one {
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+    
+    #sec-img-two {
+        margin-left: 0%;
+        margin-top: 10px;
+        height: 260px;
+        width: 260px;
+    }
+    
+    .second-container p {
+        margin-left: 0%;
+       
+    }
+    
+    .sec-con-btn {
+        margin-top: 35px;
+        margin-left: 18%;
+        width: 55%;
+    
+    }
+
+}
+
+
+
 .third-container {
 
     width: 1140px;
@@ -284,9 +364,41 @@
     line-height: 2;
 }
 
+
+@media only screen and (max-width: 400px) {
+
+
+    .third-container {
+
+        width: 300px;
+        margin-top: 0px;
+    
+    }
+    
+    .third-container img {
+        margin-left: 120px;
+        margin-top: 30px;
+    }
+    
+    .third-container h1 {
+        margin-left: 1%;
+        font-weight: 700;
+    }
+    
+    .third-container p {
+        margin-left: 1%;
+        font-size: 16px;
+    }
+    
+
+}
+
+
+
+
 .fourth-con {
     width: 1110px;
-    height: 1110px;
+   min-height: 1110px;
     padding: 90px 0px 200px 0px;
     margin-left: 6%;
 
@@ -352,6 +464,46 @@
     color: white;
     width: 15%;
 
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    
+.fourth-con {
+    padding:0px;
+    margin-left: 0%;
+
+}
+
+.cards-one {
+
+    flex-direction: column;
+    height: 2200px;
+    width: 25%;
+margin-top: 60px;
+align-items: center;
+
+}
+
+.cards-two {
+flex-direction: column;
+height: 2100px;
+width: 25%;
+align-items: center;
+}
+
+#inner-card{
+margin-bottom: 40px;
+padding-bottom: 40px;
+
+}
+
+
+.home-btn-two {
+    margin-left:5%;
+  margin-top: 130px;
+} 
 }
 
 
@@ -594,5 +746,10 @@ background-color: #f9f5f9f0;
 .newsletter h2{
     color: white;
     padding-bottom: 20px;
+
+}
+
+
+@media only screen and (max-width: 400px) {
 
 }
