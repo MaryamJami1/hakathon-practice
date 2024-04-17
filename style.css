@@ -418,20 +418,20 @@
 @media only screen and (max-width: 450px) {
 
     .second-container {
-        width: 450px;
+        width: 400px;
         height: 620px;
         margin-top: 80px;
 
     }
 
     .second-container h1 {
-        padding-left: 105px;
+        padding-left: 70px;
         font-weight: 600;
 
     }
 
     #sec-img-one {
-        margin-left: 215px;
+        margin-left: 150px;
         margin-top: 10px;
     }
 
@@ -439,18 +439,19 @@
         margin-left: 35px;
         margin-top: 10px;
         height: 260px;
-        width: 390px;
+        max-width: 300px;
     }
 
     .second-container p {
         margin-left: 0%;
+        font-size: 15px;
 
     }
 
     .sec-con-btn {
         margin-top: 35px;
         margin-left: 18%;
-        width: 55%;
+        width: 35%;
 
     }
 
@@ -599,24 +600,24 @@
 
     .third-container {
 
-        width: 450px;
-        margin-top: 0px;
+        width: 400px;
+        margin-top: 30px;
 
     }
 
     .third-container img {
-        margin-left:190px;
+        margin-left:120px;
         margin-top: 30px;
     }
 
     .third-container h1 {
-        margin-left: 85px;
+        margin-left: 35px;
         font-weight: 700;
     }
 
     .third-container p {
-        margin-left: 15%;
-        font-size: 15px;
+        margin-left: 10%;
+        font-size: 12px;
     }
 
 
@@ -882,57 +883,62 @@
     
 
 .fourth-con {
-    width: 420px;
-    height: 2680px;
+    width: 350px;
+    height: 2200px;
     margin: 0px;
+    margin-left: 0px;
 }
 
 .cards-one {
     flex-wrap: wrap;
-   height: 1190px;
+   height: 1000px;
     width: 100%;
+    justify-content: left;
+padding-right: 30px;
 
 
 }
 
 .cards-two {
     flex-wrap: wrap;
-   height: 1190px;
+    height: 1000px;
     width: 100%;
+    justify-content: left;
     margin-top: 20px;
+    padding-right: 30px;
 
 }
 
 #inner-card {
-    width: 180px;
-    height: 380px;
+    width: 150px;
+    height: 320px;
     gap: 0px;
     border: 2px dashed #666666;
-    opacity: 0px;
+ 
 
 }
 
 #inner-card img {
     margin-left: 30px;
     margin-top: 20px;
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
 }
 
 #inner-card h2 {
-    margin-left: 50px;
-    line-height: 1.5;
+    margin-left: 30px;
+    line-height: 1.2;
 }
 
 #inner-card button {
     margin-top: 12px;
-    margin-left: 22%;
+    margin-left: 18%;
     border: none;
     outline: none;
     background-color: #252525;
-    padding: 15px;
+    padding: 5px;
     color: white;
-    width: 65%;
+    width: 75%;
 }
 
 .home-btn-two {
@@ -1183,7 +1189,7 @@
 
 
     #fifth-img-one {
-        margin-left: 200px;
+        margin-left: 160px;
         margin-top: 30px;
     }
 
@@ -1191,7 +1197,7 @@
 
     #fifth-img-two {
         height: 150px;
-        width:450px;
+        width:355px;
         margin-left: 0px;
         margin-top: 0px;
     }
@@ -1200,19 +1206,19 @@
 
     .fifth-container h1 {
         padding: 0px;
-        padding-left: 90px;
+        padding-left: 60px;
         font-weight: 700;
 
     }
 
     .fifth-container p {
-        margin-left: 1%;
-        font-size: 14px;
+        margin-left: 0%;
+        font-size: 12px;
     }
 
     
 .fifth-con-btn{
-    width: 45%;
+    width: 35%;
     margin-left: 95px;
 }
 
@@ -1568,7 +1574,7 @@
 
 
     .testmonial {
-        width: 450px;
+        width: 400px;
         height: 500px;
         margin-top: 60px;
         margin-left: 10px;
@@ -1581,11 +1587,11 @@
     }
 
     .testmonial #carrot-six {
-        margin-left: 45%;
+        margin-left: 40%;
     }
 
     .testmonial #test {
-        margin-left: 25%;
+        margin-left: 20%;
         font-weight: 700;
     }
 
@@ -1604,7 +1610,7 @@
     }
 
     .child-div {
-        margin-left: 25px;
+        margin-left: 15px;
     }
 
     .child-div p {
@@ -1620,10 +1626,11 @@
 
     .review {
         height: 200px;
-        width: 430px;
+        width: 320px;
         display: flex;
         justify-content: center;
         margin-top: 10px;
+        margin-left: 0px;
 
 
     }
@@ -1950,7 +1957,7 @@
 
 
     .contact-main {
-        width: 450px;
+        width: 400px;
         height: 900px;
         background-color: #f9f5f9f0;
         padding-top: 50px;
@@ -1960,27 +1967,27 @@
     .content-last {
         height: 550px;
         width: 300px;
-        margin-left: 85px;
+        margin-left: 35px;
 
     }
 
     #last-carrot {
-        margin-left: 40%;
+        margin-left: 35%;
     }
 
     #contact-us {
-        margin-left: 20%;
+        margin-left: 15%;
         font-weight: 700;
     }
 
     .input input {
-        width: 230px;
-        margin-left: 25px;
+        width: 280px;
+        margin-left: 10px;
     }
 
     .input textarea {
-        width: 230px;
-        margin-left: 25px;
+        width: 280px;
+        margin-left: 10px;
     }
 
 
@@ -1992,9 +1999,13 @@
     .map {
         margin-top: 25px;
         height: 350px;
-        width: 300px;
+        width: 200px;
+       
     }
 
+    .map iframe{
+        width: 300px;
+    }
 
 } 
 
@@ -2143,7 +2154,7 @@
 
 
     .main-footer {
-        height:700px;
+        height:400px;
         width: 750px;
         background-color: #252525;
         margin-top: 30px;
@@ -2303,7 +2314,7 @@
 
     .main-footer {
         height:700px;
-        width: 450px;
+        width: 400px;
         background-color: #252525;
         margin-top: 30px;
     }
